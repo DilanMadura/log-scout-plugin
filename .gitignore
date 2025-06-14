@@ -1,0 +1,64 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Build ===
+/target/
+/build/
+
+# === Gradle ===
+.gradle
+/build/
+!gradle-wrapper.jar
+.gradle/
+**/build/
+
+# === Maven ===
+/.mvn/
+!**/mvnw
+!**/mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# === Logs ===
+*.log
+logs/
+log/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+.loadpath
+
+# === VS Code ===
+.vscode/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Test Reports ===
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+# === Spring Boot Specific ===
+spring.log
+.env
+
+# === Local Env ===
+*.local.properties
+.env
